@@ -8,7 +8,7 @@ Refutação é o processo de demonstrar que uma determinada proposição é fals
 
 ## Descrição do Script
 
-O script a seguir usa a biblioteca SymPy para verificar se a expressão $ \neg (P \land \neg P)$ é uma tautologia. Isso significa que estamos verificando se a negação de uma contradição é sempre verdadeira.
+O script a seguir usa a biblioteca SymPy para verificar se a expressão $\( \neg (P \land \neg P) \)$ é uma tautologia. Isso significa que estamos verificando se a negação de uma contradição é sempre verdadeira.
 
 ### Passos do Script
 
