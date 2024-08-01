@@ -10,6 +10,7 @@ def is_tautology(expr, symbols):
 P, Q = symbols('P Q')
 
 # Criando as premissas e a conclusão
+# (P -> Q, ~Q) => ~P
 premise1 = Implies(P, Q)
 premise2 = Not(Q)
 conclusion = Not(P)
