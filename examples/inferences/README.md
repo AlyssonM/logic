@@ -6,7 +6,7 @@ Estes exemplos demonstram como usar a biblioteca SymPy para verificar a validade
 
 Modus Ponens é uma forma de inferência lógica que pode ser expressa da seguinte maneira:
 
-1. Se \(P\) então \(Q\). (\(P \rightarrow Q\))
+1. Se \(P\) então \(Q\). \(P -> Q\)
 2. \(P\) é verdadeiro.
 3. Portanto, \(Q\) deve ser verdadeiro.
 
