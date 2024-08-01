@@ -1,4 +1,4 @@
-from sympy import symbols, And, Implies
+from sympy import symbols, And, Implies, Not, Or
 from sympy.logic.boolalg import truth_table
 
 # Função para verificar se é uma tautologia

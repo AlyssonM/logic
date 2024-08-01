@@ -1,6 +1,6 @@
 # Lógica Proposicional com SymPy
 
-Este repositório contém exemplos, exercícios e tutoriais sobre lógica proposicional utilizando a biblioteca SymPy.
+Este repositório contém exemplos e exercícios sobre introdução à lógica proposicional utilizando a biblioteca SymPy.
 
 ## Estrutura do Repositório
 
@@ -9,52 +9,32 @@ Este repositório contém exemplos, exercícios e tutoriais sobre lógica propos
     - `modus_ponens.py`
     - `modus_tollens.py`
     - `hypothetical_syllogism.py`
+    - ...
 
   - **refutation**: Exemplos de refutações.
     - `refutation_ex1.py`
     - `refutation_ex2.py`
+    - ...
 
   - **tautology**: Exemplos de tautologias.
     - `tautology_ex1.py`
     - `tautology_ex2.py`
-
-  - **miscellaneous**: Exemplos diversos.
-    - Exemplos de expressões lógicas complexas.
-    - Exercícios resolvidos.
+    - ...
 
 - **exercises**: Exercícios de diferentes níveis de dificuldade.
-  - **basic**: Exercícios básicos para iniciantes.
     - `exercise1.py`
     - `exercise2.py`
+    - ...
 
-  - **intermediate**: Exercícios intermediários.
-    - `exercise3.py`
-    - `exercise4.py`
-
-  - **advanced**: Exercícios avançados.
-    - `exercise5.py`
-    - `exercise6.py`
-
-- **docs**: Tutoriais e referências.
-  - **tutorials**: Tutoriais explicando conceitos básicos e avançados de lógica proposicional.
-    - `introduction_to_logic.md`
-    - `advanced_inference_rules.md`
-
-  - **references**: Documentação e links úteis.
-    - `sympy_reference.md`
-    - `logic_resources.md`
-    
-- **tests**: Testes automatizados para verificar a validade dos scripts de exemplos e exercícios.
-  - `test_inferences.py`
-  - `test_refutations.py`
 
 ## Como Usar
 
-1. Clone o repositório:
+1. No terminal (prompt de comando), direcione o caminho para o diretório de interesse utilizando o comando _cd_. Clone o repositório utilizando o comando git clone. Para usar os comandos git é necessário ter o [Git](https://git-scm.com/downloads) instalado:
 ```bash
-   git clone https://github.com/seuusuario/propositional_logic_sympy.git
-   cd propositional_logic_sympy
+   git clone https://github.com/AlyssonM/logic.git
+   cd logic
 ```
+ou faça o download da pasta em Code -> Download ZIP, descompacte o arquivo em um diretório. Abra um terminal na pasta descompactada ('logic'). 
 
 2. Instale as dependências:
 ```bash
@@ -66,8 +46,9 @@ Este repositório contém exemplos, exercícios e tutoriais sobre lógica propos
     cd examples/inferences
     python modus_ponens.py
 ```
+A execução de programas Python é realizada com o comando python _nomeArquivo.py_
 
-## Contribuição
+## Para Contribuição com o repositório
 
 1. Crie uma nova branch:
 ```bash
