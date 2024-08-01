@@ -8,7 +8,7 @@ Uma tautologia é uma fórmula ou expressão lógica que é verdadeira em todas 
 
 ## Descrição do Script
 
-O script a seguir usa a biblioteca SymPy para verificar se a expressão combinada \( (\text{premise1} \land \text{premise2}) \rightarrow \text{conclusion} \) é uma tautologia e também verifica sua satisfatibilidade.
+O script a seguir usa a biblioteca SymPy para verificar se a expressão combinada $\( (\text{premise1} \land \text{premise2}) \rightarrow \text{conclusion} \)$ é uma tautologia e também verifica sua satisfatibilidade.
 
 ### Passos do Script
 
