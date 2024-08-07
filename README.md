@@ -21,6 +21,11 @@ Este repositório contém exemplos e exercícios sobre introdução à lógica p
     - `tautology_ex2.py`
     - ...
 
+  - **resolution**: Exemplos de inferência por resolução e FNC.
+    - `fnc_ex1.py`
+    - `fnc_ex2.py`
+    - `fnc_ex3.py`
+
 - **exercises**: Exercícios de diferentes níveis de dificuldade.
     - `exercise1.py`
     - `exercise2.py`
