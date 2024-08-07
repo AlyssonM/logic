@@ -39,8 +39,8 @@ if result:
 ```
 
 * p, q, r: símbolos lógicos usados nas cláusulas.
-* 'clause1', 'clause2', 'clause3': cláusulas na forma normal conjuntiva.
-* satisfiable(expr): função que verifica se existe alguma atribuição que satisfaça a fórmula.
+* '**clause1**', '**clause2**', '**clause3**': cláusulas na forma normal conjuntiva.
+* **satisfiable(expr)**: função que verifica se existe alguma atribuição que satisfaça a fórmula.
 
 #### Exemplo 2: Inferência por Resolução
 Este exemplo determina se uma conclusão pode ser logicamente inferida.
@@ -65,8 +65,8 @@ result = not satisfiable(fnc)
 # Imprimindo os resultados
 print("Pode 'r' ser derivado?", result)
 ```
-* Inclui uma negação da conclusão (*Not(r)*) para aplicar a técnica de prova por contradição.
-* '*not satisfiable(fnc)*': se a fórmula com a negação da conclusão é insatisfatível, então a conclusão original pode ser derivada.
+* Inclui uma negação da conclusão (**Not(r)**) para aplicar a técnica de prova por contradição.
+* '**not satisfiable(fnc)**': se a fórmula com a negação da conclusão é insatisfatível, então a conclusão original pode ser derivada.
 
 ## Como Executar
 
