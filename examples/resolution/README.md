@@ -99,7 +99,7 @@ O script realiza as seguintes operações:
 
 4. Verificação de Satisfabilidade:
 
-    * A função satisfiable da sympy é usada para verificar se a formulação combinada é insatisfatível, indicando que a conclusão pode ser logicamente derivada das premissas.
+    * A função **satisfiable** da sympy é usada para verificar se a formulação combinada é insatisfatível, indicando que a conclusão pode ser logicamente derivada das premissas.
 
 ## Como Executar
 
