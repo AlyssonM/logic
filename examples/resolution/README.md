@@ -68,6 +68,39 @@ print("Pode 'r' ser derivado?", result)
 * Inclui uma negação da conclusão (**Not(r)**) para aplicar a técnica de prova por contradição.
 * '**not satisfiable(fnc)**': se a fórmula com a negação da conclusão é insatisfatível, então a conclusão original pode ser derivada.
 
+#### Exemplo 3: Inferência por Resolução
+O argumento lógico considerado é o seguinte:
+
+```
+"Se é feriado, então não trabalho. Hoje é feriado. Logo, não estou trabalhando hoje."
+```
+
+O objetivo deste exemplo é:
+
+* Converter as premissas e a conclusão do argumento em cláusulas lógicas.
+* Transformar essas cláusulas em Forma Normal Conjuntiva (FNC).
+* Provar a conclusão usando a inferência por resolução.
+
+O script realiza as seguintes operações:
+
+1. Definição das Variáveis Lógicas:
+
+    * p: representa "é feriado".
+    * q: representa "trabalho".
+
+2. Premissas e Conversão em FNC:
+
+    * A implicação "Se é feriado, então não trabalho" é convertida para FNC como ~p | ~q.
+    * A afirmação "Hoje é feriado" é diretamente p.
+
+3. Construção da Expressão:
+
+    * As premissas e a negação da conclusão ("estou trabalhando") são combinadas em uma única expressão FNC.
+
+4. Verificação de Satisfabilidade:
+
+    * A função satisfiable da sympy é usada para verificar se a formulação combinada é insatisfatível, indicando que a conclusão pode ser logicamente derivada das premissas.
+
 ## Como Executar
 
 Execute os arquivos via terminal ou prompt de comando:
@@ -79,3 +112,4 @@ python fnc_ex2.py
 
 ## Saída Esperada
 Você receberá confirmações sobre a satisfabilidade das cláusulas ou a validade das inferências, juntamente com as atribuições possíveis para as variáveis, se aplicável.
+
