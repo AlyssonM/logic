@@ -34,6 +34,3 @@ for row in table:
     print(row)
 
 
-# Verificando satisfiabilidade
-is_satisfiable = satisfiable(combined_expr)
-print(f"A expressão And(p, Not(q)) é satisfatível? {is_satisfiable}")
