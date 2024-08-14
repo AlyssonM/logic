@@ -35,3 +35,7 @@ print("Tabela Verdade:")
 for row in table:
     print(row)
 
+
+# Verificando satisfiabilidade
+is_satisfiable = satisfiable(combined_expr)
+print(f"A expressão é satisfatível? {is_satisfiable}")
